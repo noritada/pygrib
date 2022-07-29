@@ -3,7 +3,7 @@ name: Build and Test Windows/MacOSX
 on:
   pull_request:
   push:
-    branches: [master]
+    branches: [master, testing]
 
 jobs:
   run:
